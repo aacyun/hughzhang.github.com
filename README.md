@@ -1,6 +1,6 @@
 # Blind Alley Graffiti
 
-Copyright (c) 2012 Daryl Yeo 
+Copyright (c) 2013 Hugh Zhang
 
 This is the [Jekyll](http://github.com/mojombo/jekyll) source for my
 [blog](http://darylyeo.com). Many thanks to
@@ -10,13 +10,13 @@ This is the [Jekyll](http://github.com/mojombo/jekyll) source for my
 
 # License
 
-The following directories and their contents are Copyright Daryl Yeo.
+The following directories and their contents are Copyright Hugh Zhang.
 You may not reuse anything therein without my permission:
 
 * _posts/
 * images/
   
 All other directories and files are MIT Licensed. Feel free to use the HTML and
-CSS as you please. If you do use them, a link back to http://darylyeo.com would
+CSS as you please. If you do use them, a link back to http://hughzhang.com would
 be appreciated, but is not required. I would suggest modifying it so that
 we have some variety. :)
