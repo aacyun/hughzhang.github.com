@@ -77,6 +77,18 @@ GAE没有像Wordpress这样成熟的系统，但简单的Blogging要求还是能
 * [**豆瓣**]       -去得比较少，但会经常通过Fawave发一些东西上去
 * **点点**          -一百年去一次，炒Tumblr也是一笔的烂
 
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39958617-1', 'hughzhang.com');
+  ga('send', 'pageview');
+
+</script>
+
 <img src="http://www.uber-facts.com/wp-content/uploads/2013/02/03-Social-Media-Management8777.jpg" width="620">
 
   [**QQ空间**]: http://user.qzone.qq.com/1207849006 
@@ -89,4 +101,4 @@ GAE没有像Wordpress这样成熟的系统，但简单的Blogging要求还是能
   [hughzhang.com]: http://hughzhang.com
   
 
-    
+ 
