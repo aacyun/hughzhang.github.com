@@ -1,3 +1,7 @@
 markdown: rdiscount
 pygments: true
 permalink: /:title.html
+analytics :
+  provider : google
+  google : 
+      tracking_id : 'UA-123-12'
