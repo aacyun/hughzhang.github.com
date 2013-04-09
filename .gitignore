@@ -1,0 +1,7 @@
+*~
+*.swp
+.DS_Store
+.VimballRecord
+.netrwhist
+_site/
+_drafts/

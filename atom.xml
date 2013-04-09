@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Daryl Yeo | Blind Alley Graffiti</title>
+ <link href="http://darylyeo.com/atom.xml" rel="self"/>
+ <link href="http://darylyeo.com/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://darylyeo.com/</id>
+ <author>
+   <name>Daryl Yeo</name>
+   <email>daryl@darylyeo.com</email>
+ </author>
+ 
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://darylyeo.com{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://darylyeo.com{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+ 
+</feed>

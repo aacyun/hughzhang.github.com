@@ -1,0 +1,35 @@
+---
+layout: default
+title: Blind Alley Graffiti
+description: Blind Alley Graffiti | Scrawlings on the wall by Daryl Yeo. Daryl is a Singaporean developer working at Lumos Labs.
+---
+<div id="home-avatar" class="six columns" align="right">
+    <br>
+    <br>
+    <a href="/about"><img id="avatar" src="http://lh6.googleusercontent.com/-GOc4hhOuOuM/UWPry5hmvvI/AAAAAAAAGj0/7kLUkB_OgEE/s469/me.png.jpg" height="300" width="300" ></a>
+</div>
+
+<div id="home-content" class="content ten columns"> 
+    <br>
+    <h1>Hi, I'm Hugh Zhang.</h1>
+    <br/>
+    <p>一个一直在想寻求心理上的突破，但面对大学只有两个月的事实而惆怅的毕业生.</p>
+    <p>一个想学但还没学好编程，对社会心理学、音乐、教育都感兴趣的同学.</p>
+    <p>一个在工作上有完美主义倾向但生活中很Easy的巨蟹座.</p>
+    <p>我有18+3岁，就和你一样!</>
+</div>
+
+<div id="latest" class="content sixteen columns">
+    <h2>Latest blog post</h2>
+    {% for page in site.categories.blog limit:2 %}
+        <br>
+        <a href="{{ page.url }}" class="links" alt="{{ page.title }}" title="{{ page.title }}">{{ page.title }}</a>&nbsp;&nbsp;&nbsp;&nbsp;<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+        <p>{{ page.excerpt }}</p>
+    {% endfor %}
+    <br>
+    
+    <a href="/blog" align="right" color="#CCCCCC">more>></a>
+    <br>
+    <br>
+    
+</div>

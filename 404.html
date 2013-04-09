@@ -1,0 +1,62 @@
+---
+title: Page Not Found
+---
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<html>
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Hugh Zhang{% if page.title %} | {{ page.title }} {% endif %}</title>
+    <meta name="description" content="Hugh Zhang | Do it now !" />
+    <meta property="og:title" content="Hugh Zhang | Do it now !" />
+    <meta property="og:description" content="Hugh Zhang | Do it now !">
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="http://hughzhang.com/static/images/logo-big.png" />
+    <meta property="article:author" content="http://hughzhang.com/about/" />
+    <link rel="author" href="https://plus.google.com/u/0/116348551901681680583/posts" />
+    <link rel="canonical" href="http://hughzhang.com/" />
+    <meta property="og:url" content="http://hughzhang.com/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="/static/css/base.css" />
+    <link rel="stylesheet" href="/static/css/skeleton.css" />
+    <link rel="stylesheet" href="/static/css/layout.css" />
+    <link rel="stylesheet" href="/static/css/fonts.css" />
+    <link rel="stylesheet" href="/static/css/syntax.css" />
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+    <body>
+        <div id="nav" class="container nav-container">
+		    <div id="logo-primary" class="four columns">
+		        <ul>
+		            <li><a href="/" alt="Hugh Zhang | Do it now !" title="Hugh Zhang | Do it now !">Hugh Zhang | Do it now !</a></li>
+		        </ul>
+		    </div>
+		    <div id="nav-primary" class="twelve columns">
+		        <ul>
+		            <li><a href="/" alt="Home" title="Home">Home</a></li>
+		            <li><a href="/blog" alt="Blog" title="Blog">Blog</a></li>
+		            <li><a href="/about" alt="About" title="About">About</a></li>
+		            <li><a href="/projects" alt="Projects" title="Projects">Projects</a></li>
+		        </ul>
+		    </div>
+		</div>
+        <div class="container">
+            <div class="content post eleven columns">
+                <div class="about-header eleven columns">
+        			<h1 class="about-title eleven columns">404 Not Found</h1>
+      		 		 <p class="about-subtitle eleven columns">Oops! Your page wasn't found. Maybe you should tell <a class="links" href="mailto:zchuan903@gmail.com" alt="zchuan903@gmail.com" title="zchuan903@gmail.com">me</a> about it.</p>
+    			</div>
+                <div class="post-body eleven columns">
+                    <div class="post-body-inner eleven columns">
+                    		<img class="img-404" src="http://magnt.com/images/site/404.png" alt="Oops! Your page wasn't found." title="Oops! Your page wasn't found." >
+                    </div>
+                </div>
+            </div>
+            {% include footer.html %}
+        </div>
+    </body>
+</html>
